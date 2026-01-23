@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #D8D8D8;
+    padding: 16px;
+}
+
+.backgroundcolor {
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 32px);
+}
+
+.foodcardcontainer {
+    display: flex;
+    gap: 40px;
+}
+
+.firstcard,
+.secondcard,
+.thirdcard {
+    width: 360px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.imgcontainer {
+    position: relative;
+}
+
+.infoicon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.information {
+    display: flex;
+    padding-inline: 24px;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.information-img-container {
+    display: flex;
+    gap: 9px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #081F32;
+}
+
+p {
+    font-size: 16px;
+    color: #6E798C;
+    margin-inline: 24px;
+    margin-bottom: 24px;
+    /* line-height: 25px; */
+}
+
+.foodcooking-info {
+    display: flex;
+    padding-inline: 24px;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #A5ADBB;
+}
+
+.price-order {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 24px;
+    margin-bottom: 30px;
+}
+
+.discount {
+    display: flex;
+    gap: 8px;
+    align-items: center
+}
+
+.originalprice {
+    text-decoration: line-through;
+    color: #F8593B;
+    font-size: 20px;
+}
+
+span {
+    color: #081F32;
+    font-size: 28px;
+}
+
+button {
+    background-color: #2ECC71;
+    padding: 9px 12px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    cursor: pointer
+}

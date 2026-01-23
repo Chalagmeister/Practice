@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad+Guides&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+p {
+    margin: 50px;
+}
+
+
+.first {
+  font-family: "Playwrite US Trad Guides", cursive;
+}
+
+.second {
+  font-family: "Bebas Neue", sans-serif;
+}

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+p {
+    color: red;
+}
+
+#paragraph-3 {
+    color: darkgreen;
+}
+
+#paragraph-2 {
+    color: teal;
+}
+
+.Backgroud-color {
+    background-color: yellowgreen;
+}
