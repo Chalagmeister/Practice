@@ -48,6 +48,7 @@ body {
 }
 
 .item2-container {
+  background-color: #7551dc;
 }
 
 .item3 {
@@ -64,7 +65,8 @@ body {
   font-style: italic;
 }
 .item2 {
-  background-color: #7551dc;
+  display: flex;
+  align-items: center;
 }
 
 .item3 {
