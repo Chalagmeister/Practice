@@ -1,0 +1,172 @@
+@import url(./tokens.css);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: var(--font-preset-1);
+}
+body {
+  background: #f6f5f6;
+  min-height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  margin: 160px 83px;
+  width: min(1100px, 100% - 48px);
+
+}
+
+.card-create {
+  background-color: var(--yellow100);
+  padding-inline: 32px;
+}
+
+.card-create h2 {
+  color: black;
+  font-size: var(--fontsize-preset-2);
+  line-height: var(--fontlineheigt-preset-2);
+  letter-spacing: var(--fontletterspacing-preset-2);
+}
+
+.card-create span {
+  font-style: italic;
+  color: var(--purple500);
+}
+
+.card-hero {
+  background-color: var(--purple500);
+  padding-inline: 32px;
+}
+
+.card-hero h1 {
+  font-size: var(--fontsize-preset-1);
+  color: white;
+  line-height: var(--fontlineheigt-preset-1);
+  letter-spacing: var(--fontletterspacing-preset-1);
+}
+
+.card-hero span {
+  color: var(--yellow500);
+}
+
+.card-hero p {
+  color: white;
+  font-size: var(--fontsize-preset-4);
+  line-height: var(--fontheigt-preset-4);
+  letter-spacing: var(--fontletterspacing-preset-4);
+}
+
+.card-schedule {
+  background-color: var(--purple100);
+}
+
+.card-schedule h2 {
+  font-size: var(--fontsize-preset-3);
+  line-height: var(--fontheigt-preset-3);
+  letter-spacing: var(--fontletterspacing-preset-3);
+}
+.card-schedule p {
+  color: black;
+  font-size: var(--fontsize-preset-4);
+  line-height: var(--fontheigt-preset-4);
+  letter-spacing: var(--fontletterspacing-preset-4);
+}
+
+.card-accounts {
+  background-color: white;
+}
+
+.card-accounts p {
+  font-size: var(--fontsize-preset-3);
+  line-height: var(--fontheigt-preset-3);
+  letter-spacing: var(--fontletterspacing-preset-3);
+}
+
+.card-consistent {
+  background-color: var(--yellow500);
+}
+
+.card-ai {
+  background-color: var(--yellow500);
+}
+
+.card-ai h2 {
+  color: black;
+  font-size: var(--fontsize-preset-3);
+  line-height: var(--fontheigt-preset-3);
+  letter-spacing: var(--fontletterspacing-preset-3);
+}
+
+.card-growth {
+  background-color: white;
+}
+
+.card-growth h1 {
+  font-size: var(--fontsize-preset-1);
+  color: black;
+  line-height: var(--fontlineheigt-preset-1);
+  letter-spacing: var(--fontletterspacing-preset-1);
+}
+
+.card-growth p {
+  color: black;
+  font-size: var(--fontsize-preset-4);
+  line-height: var(--fontheigt-preset-4);
+  letter-spacing: var(--fontletterspacing-preset-4);
+}
+
+.card-followers {
+  flex-direction: row;
+  background-color: var(--purple500);
+}
+
+.card-followers h2 {
+  font-size: var(--fontsize-preset-2);
+  line-height: var(--fontlineheigt-preset-2);
+  letter-spacing: var(--fontletterspacing-preset-2);
+}
+
+.card-create {
+  grid-row: 1 / 3;
+  grid-column: 1;
+}
+.card-hero {
+  grid-column: 2 / 4;
+}
+.card-schedule {
+  grid-column: 4;
+  grid-row: 1 / 4;
+}
+.card-accounts {
+  grid-column: 2;
+  grid-row: 2;
+}
+.card-consistent {
+  grid-column: 3;
+  grid-row: 2;
+}
+.card-ai {
+  grid-row: 3 / 5;
+  grid-column: 1;
+}
+.card-growth {
+  grid-column: 2;
+  grid-row: 4;
+}
+.card-followers {
+  grid-column: 3 / 5;
+  grid-row: 4;
+}

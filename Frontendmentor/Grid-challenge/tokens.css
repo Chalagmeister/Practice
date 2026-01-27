@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+:root {
+  /* Colors */
+
+  --purple100: #dbd1fc;
+  --purple500: #7551dc;
+  --yellow100: #f9eee2;
+  --yellow500: #ffcc6a;
+
+  /* Typography */
+
+  --font-preset-1: "DM Sans", sans-serif;
+  --fontsize-preset-1: 62px;
+  --fontlineheigt-preset-1: 93, 5%;
+  --fontletterspacing-preset-1: 3px;
+
+  --fontsize-preset-2: 40px;
+  --fontlineheigt-preset-2: 90%;
+  --fontletterspacing-preset-2: -2px;
+
+  --fontsize-preset-3: 32px;
+  --fontlineheigt-preset-3: 28px;
+  --fontletterspacing-preset-3: -2px;
+
+  --fontsize-preset-4: 18px;
+  --fontlineheigt-preset-4: 111%;
+  --fontletterspacing-preset-4: 0px;
+}
