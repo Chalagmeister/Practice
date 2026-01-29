@@ -11,6 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #f6f5f6;
+
 }
 
 .wrapper {
@@ -57,10 +58,6 @@ body {
 .box8 {
   grid-row: 5 / 7;
   grid-column: 3 / 5;
-}
-
-.wrapper {
-  margin: 160px 83px;
 }
 
 .box {
@@ -123,7 +120,7 @@ body {
   background-color: var(--purple100);
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   gap: 24px;
 }
 
