@@ -23,10 +23,8 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   gap: 32px;
-  margin: 160px 83px;
-  width: min(1100px, 100% - 48px);
-
 }
 
 .card-create {
@@ -140,33 +138,39 @@ body {
 }
 
 .card-create {
-  grid-row: 1 / 3;
-  grid-column: 1;
+  grid-row: span 3 / span 3;
 }
 .card-hero {
-  grid-column: 2 / 4;
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
 }
 .card-schedule {
-  grid-column: 4;
-  grid-row: 1 / 4;
+  grid-row: span 4 / span 4;
+    grid-column-start: 4;
 }
 .card-accounts {
-  grid-column: 2;
-  grid-row: 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 4;
 }
 .card-consistent {
-  grid-column: 3;
-  grid-row: 2;
+  grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 .card-ai {
-  grid-row: 3 / 5;
-  grid-column: 1;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
 }
 .card-growth {
-  grid-column: 2;
-  grid-row: 4;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 5;
 }
 .card-followers {
-  grid-column: 3 / 5;
-  grid-row: 4;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 5;
 }
