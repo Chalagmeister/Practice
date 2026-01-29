@@ -1,0 +1,246 @@
+@import url(../tokens.css);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: var(--font-preset-1);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f5f6;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 32px;
+}
+
+.box1 {
+  grid-column: 1;
+  grid-row: 1 / 4;
+}
+
+.box2 {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+
+.box3 {
+  grid-column: 4;
+  grid-row: 1 / 5;
+}
+.box4 {
+  grid-column: 1;
+  grid-row: 4 / 7;
+}
+
+.box5 {
+  grid-column: 2;
+  grid-row: 3 / 5;
+}
+
+.box6 {
+  grid-column: 3;
+  grid-row: 3 / 5;
+}
+
+.box7 {
+  grid-column: 2;
+  grid-row: 5 / 7;
+}
+
+.box8 {
+  grid-row: 5 / 7;
+  grid-column: 3 / 5;
+}
+
+.wrapper {
+  margin: 160px 83px;
+}
+
+.box {
+  border-radius: 10px;
+  height: auto;
+}
+
+.box1 {
+  background-color: var(--yellow100);
+  display: flex;
+  flex-direction: column;
+  padding: 78px 33px;
+  justify-content: space-evenly;
+}
+
+.box1 h1 {
+  color: black;
+  line-height: var(--fontlineheigt-preset-2);
+  letter-spacing: var(--fontletterspacing-preset-2);
+  font-weight: 500;
+}
+
+.box1 span {
+  color: var(--purple500);
+  font-style: italic;
+}
+
+.box2 {
+  background-color: var(--purple500);
+  padding-block: 62px;
+}
+
+.review-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+}
+
+.review-box h1 {
+  color: white;
+  line-height: var(--fontlineheigt-preset-1);
+  letter-spacing: var(--fontletterspacing-preset-1);
+  font-size: var(--fontsize-preset-1);
+  font-weight: 500;
+}
+
+.review-box span {
+  color: var(--yellow500);
+}
+
+.star-box {
+  color: white;
+  line-height: var(--fontlineheigt-preset-4);
+  letter-spacing: var(--fontletterspacing-preset-4);
+  font-size: var(--fontsize-preset-4);
+}
+
+.box3 {
+  background-color: var(--purple100);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 24px;
+}
+
+.box3 img {
+  border-radius: 20px;
+  padding-left: 32px;
+}
+
+.box3 h1 {
+  line-height: var(--fontlineheigt-preset-3);
+  letter-spacing: var(--fontletterspacing-preset-3);
+  font-size: var(--fontsize-preset-3);
+  color: black;
+  font-weight: 500;
+  padding-inline: 32px;
+  padding-top: 50px;
+}
+.box3 > p {
+  line-height: var(--fontlineheigt-preset-4);
+  letter-spacing: var(--fontletterspacing-preset-4);
+  font-size: var(--fontsize-preset-4);
+  color: black;
+  padding-inline: 32px;
+  padding-bottom: 50px;
+}
+
+.box4 {
+  background-color: var(--yellow500);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 24px;
+}
+
+.box4 h1 {
+  line-height: var(--fontlineheigt-preset-2);
+  letter-spacing: var(--fontletterspacing-preset-2);
+  font-size: var(--fontsize-preset-2);
+  color: black;
+  font-weight: 500;
+}
+
+.box5 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box5 h1 {
+  line-height: var(--fontlineheigt-preset-3);
+  letter-spacing: var(--fontletterspacing-preset-3);
+  font-size: var(--fontsize-preset-3);
+  color: black;
+  font-weight: 500;
+  padding-inline: 24px;
+}
+
+.box6 {
+  background-color: var(--yellow500);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box6 h1 {
+  line-height: var(--fontlineheigt-preset-3);
+  letter-spacing: var(--fontletterspacing-preset-3);
+  font-size: var(--fontsize-preset-3);
+  color: black;
+  font-weight: 500;
+  padding-inline: 24px;
+  padding-top: 24px;
+}
+
+.box7 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 24px;
+}
+
+.box7 h1 {
+  line-height: var(--fontlineheigt-preset-1);
+  letter-spacing: var(--fontletterspacing-preset-1);
+  font-size: var(--fontsize-preset-1);
+  color: black;
+  font-weight: 500;
+}
+
+.box7 p {
+  line-height: var(--fontlineheigt-preset-4);
+  letter-spacing: var(--fontletterspacing-preset-4);
+  font-size: var(--fontsize-preset-4);
+  color: black;
+}
+
+.box7 img {
+  padding-right: 54px;
+}
+
+.box8 {
+  background-color: var(--purple500);
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 24px;
+  align-items: center;
+}
+
+.box8 img {
+  padding-block: 23px;
+}
+
+.box8 h1 {
+  color: white;
+  line-height: var(--fontlineheigt-preset-2);
+  letter-spacing: var(--fontletterspacing-preset-2);
+  font-size: var(--fontsize-preset-2);
+}

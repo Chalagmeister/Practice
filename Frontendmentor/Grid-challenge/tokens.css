@@ -12,11 +12,11 @@
 
   --font-preset-1: "DM Sans", sans-serif;
   --fontsize-preset-1: 62px;
-  --fontlineheigt-preset-1: 93, 5%;
-  --fontletterspacing-preset-1: 3px;
+  --fontlineheigt-preset-1: 58px;
+  --fontletterspacing-preset-1: -3px;
 
   --fontsize-preset-2: 40px;
-  --fontlineheigt-preset-2: 90%;
+  --fontlineheigt-preset-2: 36px;
   --fontletterspacing-preset-2: -2px;
 
   --fontsize-preset-3: 32px;
