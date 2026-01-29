@@ -11,16 +11,14 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #f6f5f6;
-  /* padding: 160px 65px; */
 }
 
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  /* grid-template-rows: repeat(6, 1fr); */
   gap: 32px;
-  max-width: 1280px;
-  /* width: 100%; */
+  width: min(1200px, 100%);
 }
 
 .box1 {
@@ -64,7 +62,6 @@ body {
 
 .box {
   border-radius: 10px;
-  height: auto;
 }
 
 .box1 {
