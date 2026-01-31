@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  /* position: absolute; */
+  border: solid 1px red;
+}
+
+.animation {
+  width: 150px;
+  height: 150px;
+  background-color: aquamarine;
+  animation-name: example;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+z-index: 0;
+}
+
+@keyframes example {
+  0% {
+    background-color: bisque;
+    left: 0px; bottom: 0px;
+  }
+  25% {
+    background-color: chartreuse;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: lightcoral;
+    left: 200px;
+    top: 200px;
+  }
+  100% {
+    background-color: salmon;
+    left: 0px;
+    top: 200px;
+  }
+}
+
+.container p {
+    z-index: 1;
+    position: relative;
+}
