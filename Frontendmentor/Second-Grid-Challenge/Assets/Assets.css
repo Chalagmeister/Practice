@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /*  Colors */
+
+  --black: #121212;
+  --dark-blue: #19202d;
+  --white: #ffffff;
+  --grey100: #e7eaee;
+  --grey200: #cfcfcf;
+  --grey400: #676d7e;
+  --grey500: #48556a;
+
+  --purple50: #ede4ff;
+  --purple300: #a775f1;
+  --purple500: #733fc8;
+
+  /* Fonts */
+
+  --barlow: "Barlow Semi Condensed", sans-serif;
+  --font-size-1: 20px;
+  --line-height-1: 120%;
+  --letter-spacing: 0px;
+
+  --font-size-2-3: 13px;
+  --line-height-2-4: 110%;
+
+  --line-height-3: 140%;
+
+  --font-size-4: 11px;
+}

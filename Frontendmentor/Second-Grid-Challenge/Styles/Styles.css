@@ -1,5 +1,6 @@
 @import url(./mobile-responsive.css);
 @import url(./tablet-responsive.css);
+@import url(../Assets/Assets.css);
 * {
     box-sizing: border-box;
     margin: 0;
