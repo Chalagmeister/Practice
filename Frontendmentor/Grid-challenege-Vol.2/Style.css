@@ -1,0 +1,76 @@
+@import url("./Style/Mobile.css");
+@import url("./Style/Tablet.css");
+@import url("./Style/Desktop.css");
+@import url("./Style/tokens.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+body {
+  background: #f6f5f6;
+}
+
+.item {
+  border-radius: 10px;
+}
+
+.item-1 {
+  background-color: var(--purple-500);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing300);
+}
+
+.item-1 h1 {
+  color: var(--white);
+  text-align: center;
+}
+
+.item-1 span {
+  color: var(--yellow-500);
+}
+
+.star-reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.star-reviews span {
+  color: white;
+  font-size: var(--font-size-4);
+  line-height: var(--line-height-4);
+  letter-spacing: var(--latter-spacing-4);
+}
+
+.item-2 {
+  background-color: var(--white);
+}
+
+.item-2 h2 {
+  color: var(--black);
+}
+
+.item-3 {
+  background-color: var(--yellow-500);
+}
+.item-4 {
+  background-color: var(--purple-100);
+}
+.item-5 {
+  background-color: var(--purple-500);
+}
+.item-6 {
+  background-color: var(--white);
+}
+.item-7 {
+  background-color: var(--yellow-100);
+}
+.item-8 {
+  background-color: var(--yellow-500);
+}

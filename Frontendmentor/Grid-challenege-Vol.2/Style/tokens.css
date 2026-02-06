@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+:root {
+  --font-family: "DM Sans", sans-serif;
+
+  /* Colors */
+  --white: #ffffff;
+  --purple-500: #7551dc;
+  --purple-100: #dbd1fc;
+  --yellow-500: #ffcc6a;
+  --yellow-100: #f9eee2;
+  --black: #121212;
+
+  /* Font sizes */
+  --font-size-1: 62px;
+  --font-size-2: 40px;
+  --font-size-3: 32px;
+  --font-size-4: 18px;
+  --font-size-5: 16px;
+
+  /* Line heights */
+  --line-height-1: 58px;
+  --line-height-2: 36px;
+  --line-height-3: 28px;
+  --line-height-4: 20px;
+
+  /* /Latter spacing */
+  --letter-spacing-1: -3px;
+  --latter-spacing-2: -2px;
+  --latter-spacing-3: -2px;
+  --latter-spacing-4: 0px;
+
+  /* spacing */
+  --spacing500: 40px;
+  --spacing400: 32px;
+  --spacing300: 24px;
+  --spacing200: 16px;
+  --spacing100: 8px;
+}
