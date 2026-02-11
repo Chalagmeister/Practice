@@ -10,8 +10,11 @@
   font-family: var(--font-family);
 }
 
+
+
 body {
   background: #f6f5f6;
+  height: 100vh;
 }
 
 .item {
@@ -58,19 +61,76 @@ body {
 
 .item-3 {
   background-color: var(--yellow-500);
+  display: flex;
+  flex-direction: column;
 }
+
+.item-3 h2 {
+  color: var(--black);
+}
+
 .item-4 {
   background-color: var(--purple-100);
+  display: flex;
+  flex-direction: column;
 }
+
+.item-4 h2 {
+  color: var(--black);
+}
+
+.item-4 p {
+  color: var(--black);
+  font-size: var(--font-size-4);
+  line-height: var(--line-height-4);
+  font-weight: 400;
+  text-align: center;
+}
+
 .item-5 {
   background-color: var(--purple-500);
+  display: flex;
+}
+
+.item-5 h2 {
+  color: var(--white);
 }
 .item-6 {
   background-color: var(--white);
+  display: flex;
+}
+
+.audience-growth {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.audience-growth h2 {
+  color: var(--black);
+}
+.audience-growth span {
+  color: var(--black);
+  font-size: var(--font-size-4);
+  line-height: var(--line-height-4);
+  font-weight: 400;
 }
 .item-7 {
   background-color: var(--yellow-100);
+  display: flex;
+  flex-direction: column;
+  color: var(--black);
 }
+
+.item-7 span {
+  color: var(--purple-500);
+  font-style: italic;
+}
+
 .item-8 {
   background-color: var(--yellow-500);
+  display: flex;
+  flex-direction: column;
+  color: var(--black);
+  padding: var(--spacing300);
 }

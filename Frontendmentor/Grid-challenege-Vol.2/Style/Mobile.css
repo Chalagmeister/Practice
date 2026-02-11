@@ -3,11 +3,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: var(--spacing400);
     padding-block: var(--spacing400);
     padding-inline: var(--spacing200);
     max-width: 720px;
+    margin: auto;
   }
 
   .item-1 {
@@ -27,7 +28,119 @@
   .item-2 h2 {
     font-size: 26px;
     font-weight: 500;
-    line-height: 24px; 
+    line-height: 24px;
     letter-spacing: -1.56px;
+  }
+
+  .item-3 {
+    padding-inline: var(--spacing200);
+    gap: var(--spacing200);
+  }
+
+  .item-3 h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -1.56px;
+    padding-top: var(--spacing200);
+  }
+
+  .item-3 img {
+    width: 205px;
+  }
+
+  .item-4 {
+    padding: var(--spacing400);
+    gap: var(--spacing300);
+    align-items: center;
+  }
+
+  .item-4 h2 {
+    color: var(--black);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -1.56px;
+  }
+
+  .item-4 img {
+    width: 309px;
+  }
+
+  .item-5 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: var(--spacing300);
+    text-align: center;
+  }
+
+  .item-5 h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -1.92px;
+  }
+
+  .item-6 {
+    flex-direction: column;
+    gap: var(--spacing300);
+    padding: var(--spacing300);
+  }
+
+  .audience-growth h2 {
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -1.84px;
+  }
+
+  .item-6 img {
+    width: 179px;
+  }
+
+  .item-7 h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -1.92px;
+  }
+
+  .item-7 {
+    align-items: start;
+    padding: var(--spacing400);
+    gap: var(--spacing300);
+  }
+
+  .item-7 span {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -1.92px;
+  }
+
+  .item-7 img {
+    width: 190.466px;
+    height: 90.351px;
+  }
+
+  .item-8 {
+    align-items: start;
+    gap: var(--spacing300);
+  }
+
+  .item-8 h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -1.92px;
+  }
+
+  .item-8 img {
+    width: 219.949px;
+    height: 222.496px;
   }
 }
