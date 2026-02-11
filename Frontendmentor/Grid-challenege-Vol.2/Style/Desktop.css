@@ -35,23 +35,23 @@
   .item-2 {
     grid-column: 3 / 5;
     grid-row: 3/5;
-    padding: var(--spacing300);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    justify-content: space-evenly;
   }
 
   .item-2 h2 {
     font-size: var(--font-size-3);
     line-height: var(--line-height-3);
     letter-spacing: var(--letter-spacing-3);
+    padding-left: 24px;
   }
 
   .item-3 {
     grid-column: 5 / 7;
     grid-row: 3/5;
     padding-inline: var(--spacing300);
-    gap: var(--spacing200);
+    justify-content: space-between;
   }
 
   .item-3 h2 {
@@ -66,8 +66,8 @@
     grid-column: 7/9;
     grid-row: 1/5;
     padding-block: 50px;
-    gap: var(--spacing200);
     padding-left: var(--spacing400);
+    justify-content: space-between;
   }
 
   .item-4 h2 {
@@ -124,7 +124,7 @@
 
   .item-7 {
     grid-area: 1 / 1 / 4 / 3;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: start;
     gap: var(--spacing300);
@@ -156,9 +156,9 @@
   }
 
   .item-5 img {
-    width: 100px;
+    width: 200px;
   }
   .item-6 img {
-    width: 100px;
+    width: 200px;
   }
 }
