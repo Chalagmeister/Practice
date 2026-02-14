@@ -3,53 +3,245 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grid Challenge Vol.2</title>
+    <title>Tech Book Club</title>
     <link rel="stylesheet" href="./Style.css" />
   </head>
   <body>
-    <div class="grid-container">
-      <div class="item item-1">
-        <h1>Social Media <span>10x</span> Faster with AI</h1>
-        <div class="star-reviews">
-          <img src="./Assets/star reviews.svg" alt="5-star reviews" />
-          <span>Over 4,000 5-star reviews</span>
+    <main class="page">
+      <header class="hero">
+        <div class="hero__content">
+          <div class="logo">
+            <span class="logo__mark" aria-hidden="true"></span>
+            <span>Tech Book Club</span>
+          </div>
+          <h1>Join the ultimate tech book club</h1>
+          <p>
+            Turn your reading time into learning time with fellow tech
+            enthusiasts. Get curated recommendations, join vibrant discussions,
+            and level up your skills one chapter at a time.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#membership">
+              Review membership options
+              <span class="btn__icon" aria-hidden="true"></span>
+            </a>
+            <div class="rating">
+              <div class="rating__row">
+                <div class="avatars" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="stars" aria-label="5 out of 5 stars">
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                </div>
+              </div>
+              <p>200+ developers joined already</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="item item-2">
-        <img width="316px" src="./Assets/Socialmedia.svg" alt="Socialmedia" />
-        <h2>Manage multiple accounts and platforms.</h2>
-      </div>
-      <div class="item item-3">
-        <h2>Maintain a consistent posting schedule.</h2>
-        <img src="./Assets/Week1-cropped.svg" alt="week1" />
-      </div>
-      <div class="item item-4">
-        <h2>Schedule to social media.</h2>
-        <img src="./Assets/optimize-timing.svg" alt="optimize timing" />
-        <p>
-          Optimize post timings to publish content at the perfect time for your
-          audience.
-        </p>
-      </div>
-      <div class="item item-5">
-        <img src="./Assets/Followers-chart.svg" alt="followers chart" />
-        <h2>Grow followers with non-stop content.</h2>
-      </div>
-      <div class="item item-6">
-        <div class="audience-growth">
-          <h1>>56%</h1>
-          <span>faster audience growth</span>
+        <div
+          class="hero__art art art--hero"
+          role="img"
+          aria-label="People reading books together"
+        ></div>
+      </header>
+
+      <section class="section section--features">
+        <div class="section__copy">
+          <h2>Read together, grow together</h2>
+          <ul class="feature-list">
+            <li>
+              <span class="icon-check" aria-hidden="true"></span>
+              <span>Monthly curated tech reads selected by industry experts</span>
+            </li>
+            <li>
+              <span class="icon-check" aria-hidden="true"></span>
+              <span>Virtual and in-person meetups for deep-dive discussions</span>
+            </li>
+            <li>
+              <span class="icon-check" aria-hidden="true"></span>
+              <span>Early access to new tech book releases</span>
+            </li>
+            <li>
+              <span class="icon-check" aria-hidden="true"></span>
+              <span>Author Q&amp;A sessions with tech thought leaders</span>
+            </li>
+          </ul>
         </div>
-        <img src="./Assets/avatar.svg" alt="avatar Icons" />
-      </div>
-      <div class="item item-7">
-        <h2>Create and schedule content <span>quicker.</span></h2>
-        <img src="./Assets/Create-post.svg" alt="Create post button" />
-      </div>
-      <div class="item item-8">
-        <h2>Write your content using AI.</h2>
-        <img  src="./Assets/AIcontent.svg" alt="AI content" />
-      </div>
-    </div>
+        <div
+          class="section__media art art--reading"
+          role="img"
+          aria-label="A cozy reading scene"
+        ></div>
+      </section>
+
+      <section class="section section--club">
+        <div
+          class="section__media art art--community"
+          role="img"
+          aria-label="People enjoying books together"
+        ></div>
+        <div class="section__copy">
+          <h2>Not your average book club</h2>
+          <p>
+            Connect with a community that speaks your language - from Python to
+            TypeScript and everything in between. Our discussions blend
+            technical depth with practical applications.
+          </p>
+          <div class="logo-row" aria-label="Supported tech stacks">
+            <span class="chip">GitHub</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">React</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--journey">
+        <h2>Your tech reading journey</h2>
+        <ol class="journey">
+          <li class="journey__step">
+            <span class="journey__num">1</span>
+            <p>Choose your membership tier</p>
+          </li>
+          <li class="journey__step">
+            <span class="journey__num">2</span>
+            <p>Get your monthly book selection</p>
+          </li>
+          <li class="journey__step">
+            <span class="journey__num">3</span>
+            <p>Join our discussion forums</p>
+          </li>
+          <li class="journey__step">
+            <span class="journey__num">4</span>
+            <p>Attend exclusive meetups</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section section--pricing" id="membership">
+        <h2>Membership options</h2>
+        <div class="pricing-grid">
+          <article class="plan">
+            <h3>Starter</h3>
+            <p class="plan__price">
+              <span class="plan__amount">$19</span>
+              <span class="plan__term">/month</span>
+            </p>
+            <ul class="plan__list">
+              <li>
+                <span class="icon-check" aria-hidden="true"></span>
+                <span>1 book/month</span>
+              </li>
+              <li>
+                <span class="icon-check" aria-hidden="true"></span>
+                <span>Online forums</span>
+              </li>
+            </ul>
+            <a class="btn btn--outline" href="#">Subscribe now</a>
+          </article>
+
+          <article class="plan plan--featured">
+            <h3>Pro</h3>
+            <p class="plan__price">
+              <span class="plan__amount">$29</span>
+              <span class="plan__term">/month</span>
+            </p>
+            <ul class="plan__list">
+              <li>
+                <span class="icon-check" aria-hidden="true"></span>
+                <span>2 books/month</span>
+              </li>
+              <li>
+                <span class="icon-check" aria-hidden="true"></span>
+                <span>Virtual meetups</span>
+              </li>
+            </ul>
+            <a class="btn btn--light" href="#">Subscribe now</a>
+          </article>
+
+          <article class="plan">
+            <h3>Enterprise</h3>
+            <p class="plan__price">
+              <span class="plan__amount">Custom</span>
+            </p>
+            <ul class="plan__list">
+              <li>
+                <span class="icon-check" aria-hidden="true"></span>
+                <span>Team access</span>
+              </li>
+              <li>
+                <span class="icon-check" aria-hidden="true"></span>
+                <span>Private sessions</span>
+              </li>
+            </ul>
+            <a class="btn btn--outline" href="#">Talk to us</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--testimonial">
+        <div class="testimonial">
+          <div class="stars" aria-label="5 out of 5 stars">
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+            <span>★</span>
+          </div>
+          <blockquote>
+            “This book club transformed my technical reading from a solitary
+            activity into an enriching community experience. The discussions
+            are gold!”
+          </blockquote>
+          <p class="testimonial__author">Sarah Chen, Software Architect</p>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="cta__content">
+          <h2>Ready to debug your reading list?</h2>
+          <a class="btn btn--light" href="#membership">
+            Review membership options
+            <span class="btn__icon" aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="rating rating--light">
+          <div class="rating__row">
+            <div class="avatars" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="stars" aria-label="5 out of 5 stars">
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+            </div>
+          </div>
+          <p>200+ developers joined already</p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="logo logo--small">
+          <span class="logo__mark" aria-hidden="true"></span>
+          <span>Tech Book Club</span>
+        </div>
+        <p>© 2024 – Tech Book Club</p>
+        <div class="socials">
+          <a href="#" aria-label="Bluesky">B</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>

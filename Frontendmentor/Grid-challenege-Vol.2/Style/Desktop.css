@@ -1,164 +1,47 @@
 @media (min-width: 993px) {
-  body {
-    align-content: center;
-  }
-  .grid-container {
-    display: grid;
-    justify-self: center;
-    grid-template-columns: repeat(8, auto);
-    gap: var(--spacing400);
-    margin-inline: 160px;
-    margin-top: 83px;
-    margin-bottom: 65px;
-    /* align-items: start; */
+  .page {
+    padding: var(--space-9) var(--space-7) var(--space-10);
   }
 
-  .item {
-    min-height: 100%;
-  }
-  .item-1 {
-    grid-column: 3 / 7;
-    padding: var(--spacing400);
+  .hero {
+    grid-template-columns: 1.1fr 0.9fr;
+    padding: var(--space-9);
   }
 
-  .item-1 h1 {
-    font-size: var(--font-size-1);
-    line-height: var(--line-height-1);
-    letter-spacing: var(--letter-spacing-1);
-    font-weight: 500;
-  }
-
-  .item-1 span {
-    text-align: center;
-  }
-
-  .item-2 {
-    grid-column: 3 / 5;
-    grid-row: 3/5;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-
-  .item-2 h2 {
-    font-size: var(--font-size-3);
-    line-height: var(--line-height-3);
-    letter-spacing: var(--letter-spacing-3);
-    padding-left: 24px;
-  }
-
-  .item-3 {
-    grid-column: 5 / 7;
-    grid-row: 3/5;
-    padding-inline: var(--spacing300);
-    justify-content: space-between;
-  }
-
-  .item-3 h2 {
-    font-size: var(--font-size-3);
-    line-height: var(--line-height-3);
-    letter-spacing: var(--letter-spacing-3);
-    font-weight: 500;
-    padding-top: var(--spacing300);
-  }
-
-  .item-4 {
-    grid-column: 7/9;
-    grid-row: 1/5;
-    padding-block: 50px;
-    padding-left: var(--spacing400);
-    justify-content: space-between;
-  }
-
-  .item-4 h2 {
-    font-size: var(--font-size-3);
-    line-height: var(--line-height-3);
-    letter-spacing: var(--letter-spacing-3);
-    padding-right: var(--spacing400);
-    font-weight: 500;
-  }
-
-  .item-4 p {
-    font-size: var(--font-size-4);
-    line-height: var(--line-height-4);
-    letter-spacing: var(--letter-spacing-4);
-    padding-right: var(--spacing400);
-    font-weight: 400;
-  }
-
-  .item-5 {
-    grid-row: 5/7;
-    grid-column: 5/9;
-    gap: 11px;
-    padding: var(--spacing300);
+  .section--features,
+  .section--club {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: center;
   }
 
-  .item-5 h2 {
-    font-size: var(--font-size-2);
-    line-height: var(--line-height-2);
-    letter-spacing: var(--letter-spacing-2);
-    font-weight: 500;
+  .section--club .section__media {
+    order: 1;
   }
 
-  .item-6 {
-    grid-area: 5 / 3 / 7 / 5;
-    flex-direction: column;
-    gap: 38px;
-    padding: var(--spacing300);
+  .section--club .section__copy {
+    order: 2;
   }
 
-  .item-6 h1 {
-    font-size: var(--font-size-1);
-    line-height: var(--line-height-1);
-    letter-spacing: var(--letter-spacing-1);
-    font-weight: 500;
+  .journey {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .item-6 span {
-    font-size: var(--font-size-4);
-    line-height: var(--line-height-4);
-    letter-spacing: var(--letter-spacing-4);
-    font-weight: 400;
+  .journey__step:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    width: 30px;
+    height: 2px;
+    background: var(--rich-black);
   }
 
-  .item-7 {
-    grid-area: 1 / 1 / 4 / 3;
-    justify-content: space-evenly;
+  .pricing-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .cta {
+    grid-template-columns: 1.1fr 0.9fr;
     align-items: center;
-    text-align: start;
-    gap: var(--spacing300);
-    padding-inline: var(--spacing400);
-  }
-
-  .item-7 h2 {
-    font-size: var(--font-size-2);
-    line-height: var(--line-height-2);
-    letter-spacing: var(--letter-spacing-2);
-    font-weight: 500;
-  }
-  .item-8 {
-    grid-area: 4 / 1 / 7 / 3;
-    align-items: center;
-    gap: 55px;
-  }
-
-  .item-8 h2 {
-    font-size: var(--font-size-2);
-    line-height: var(--line-height-2);
-    letter-spacing: var(--letter-spacing-2);
-    font-weight: 500;
-    text-align: start;
-  }
-
-  img {
-    width: 100%;
-  }
-
-  .item-5 img {
-    width: 200px;
-  }
-  .item-6 img {
-    width: 200px;
   }
 }

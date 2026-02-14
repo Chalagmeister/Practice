@@ -1,38 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Martian+Mono:wght@400;600;800&display=swap");
+
 :root {
-  --font-family: "DM Sans", sans-serif;
+  --font-heading: "Martian Mono", monospace;
+  --font-body: "Inter", sans-serif;
 
-  /* Colors */
+  --rich-black: #062630;
+  --light-salmon: #faad93;
+  --light-salmon-50: #fff5ef;
+  --toffee: #f99d84;
+  --eerie-black: #1c1c1c;
   --white: #ffffff;
-  --purple-500: #7551dc;
-  --purple-100: #dbd1fc;
-  --yellow-500: #ffcc6a;
-  --yellow-100: #f9eee2;
-  --black: #121212;
+  --eerie-black-10: rgba(28, 28, 28, 0.1);
 
-  /* Font sizes */
-  --font-size-1: 62px;
-  --font-size-2: 40px;
-  --font-size-3: 32px;
-  --font-size-4: 18px;
-  --font-size-5: 16px;
+  --radius-lg: 24px;
+  --radius-md: 18px;
+  --radius-pill: 999px;
 
-  /* Line heights */
-  --line-height-1: 58px;
-  --line-height-2: 36px;
-  --line-height-3: 28px;
-  --line-height-4: 20px;
+  --shadow-strong: 0 12px 0 var(--rich-black);
+  --shadow-soft: 0 18px 40px rgba(6, 38, 48, 0.12);
 
-  /* /Latter spacing */
-  --letter-spacing-1: -3px;
-  --latter-spacing-2: -2px;
-  --latter-spacing-3: -2px;
-  --latter-spacing-4: 0px;
+  --space-1: 8px;
+  --space-2: 12px;
+  --space-3: 16px;
+  --space-4: 20px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 56px;
+  --space-9: 72px;
+  --space-10: 96px;
 
-  /* spacing */
-  --spacing500: 40px;
-  --spacing400: 32px;
-  --spacing300: 24px;
-  --spacing200: 16px;
-  --spacing100: 8px;
+  --content-max: 1120px;
 }
