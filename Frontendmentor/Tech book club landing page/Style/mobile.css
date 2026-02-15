@@ -1,0 +1,14 @@
+.container {
+  padding-inline: var(--spacing-200);
+}
+main {
+  padding-top: 6.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-800);
+  align-items: center;
+}
+
+.joining-section h1 {
+  font-size: var(--text-preset-1-mobile-size);
+}
