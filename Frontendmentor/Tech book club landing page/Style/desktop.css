@@ -1,17 +1,43 @@
 @media (min-width: 1024px) {
-    .container {
-        max-width: 100%;
-    }
+  .container {
+    max-width: 100%;
+  }
 
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
 
+  .joining-section h1 {
+    font-size: var(--text-preset-1-size);
+  }
 
-    main {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-    }
+  .people-in-liberary {
+    padding-bottom: 66px;
+  }
 
-    .joining-section h1 {
-        font-size: var(--text-preset-1-size);
-    }
+  .readers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .readers-container > img {
+    order: 1;
+  }
+
+  .readers-container > .togather {
+    order: 2;
+  }
+
+  .not-avarage-club-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .togather h2 {
+    font-size: var(--text-preset-2-size);
+  }
 }
+  

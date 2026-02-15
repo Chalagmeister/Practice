@@ -71,9 +71,9 @@ main {
   position: absolute;
 } */
 
-.people-in-liberary {
+.main-img {
   max-width: 100%;
-  padding-bottom: var(--spacing-1000);
+  margin: auto;
 }
 
 /* .avatar-2{
@@ -94,12 +94,81 @@ header {
   left: 16px;
   background: transparent;
 }
+
 header span {
   color: var(--color-neutral-900);
   font-family: "Fira Code", monospace;
   font-size: var(--font-size-20);
   font-weight: var(--font-weight-semibold);
   letter-spacing: var(--letter-spacing-tight);
+}
+
+.togather h1 {
+  font-family: var(--text-preset-1-font);
+  color: var(--color-neutral-900);
+  font-weight: var(--text-preset-2-weight);
+  line-height: var(--text-preset-2-line-height);
+  letter-spacing: var(--text-preset-2-letter-spacing);
+}
+
+.checkmark {
+  border-radius: 4px;
+  border: 2px solid var(--colors-neutral-700,);
+  padding: var(--spacing-050);
+}
+
+.check-mark-container span {
+  font-family: var(--font-secondary);
+  font-size: var(--text-preset-5-size);
+  font-weight: var(--text-preset-5-regular-weight);
+  line-height: var(--text-preset-5-regular-line-height);
+  letter-spacing: var(--text-preset-5-regular-letter-spacing);
+  color: var(--color-neutral-700);
+}
+
+.club-info h1 {
+  font-family: var(--font-primary);
+  color: var(--color-neutral-900);
+  font-weight: var(--text-preset-2-weight);
+  line-height: var(--text-preset-2-line-height);
+  letter-spacing: var(--text-preset-2-letter-spacing);
+  font-size: var(--font-size-34);
+}
+
+.club-info p {
+  font-family: var(--font-secondary);
+  font-size: var(--text-preset-5-size);
+  font-weight: var(--text-preset-5-regular-weight);
+  line-height: var(--text-preset-5-regular-line-height);
+  letter-spacing: var(--text-preset-5-regular-letter-spacing);
+  color: var(--color-neutral-700);
+}
+
+.membership-guide-container h1 {
+  font-family: var(--font-primary);
+  color: var(--color-neutral-900);
+  font-weight: var(--text-preset-2-weight);
+  line-height: var(--text-preset-2-line-height);
+  letter-spacing: var(--text-preset-2-letter-spacing);
+}
+
+.membership-guide span {
+  font-family: var(--font-secondary);
+  font-weight: var(--text-preset-6-regular-weight);
+  line-height: var(--text-preset-6-regular-line-height);
+  letter-spacing: var(--text-preset-6-regular-letter-spacing);
+  color: var(--color-neutral-900);
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid var(--color-neutral-900);
+}
+
+.steps p {
+  color: var(--color-neutral-900);
+  font-family: var(--text-preset-6-font);
+  font-weight: var(--text-preset-6-weight);
+  line-height: var(--text-preset-6-line-height);
+  letter-spacing: var(--text-preset-6-letter-spacing);
 }
 
 /* Button Layout  */
