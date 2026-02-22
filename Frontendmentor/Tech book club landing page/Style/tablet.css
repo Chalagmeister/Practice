@@ -1,3 +1,13 @@
 @media (min-width: 640px) {
+  .membership-options {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .membership-options-container h1 {
+    font-size: var(--text-preset-2-size);
+  }
 
+  .container {
+    gap: var(--spacing-1000);
+  }
 }

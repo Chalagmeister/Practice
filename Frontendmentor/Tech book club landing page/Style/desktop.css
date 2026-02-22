@@ -1,6 +1,9 @@
 @media (min-width: 1024px) {
   .container {
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
   }
 
   main {
@@ -39,5 +42,42 @@
   .togather h2 {
     font-size: var(--text-preset-2-size);
   }
+
+  .membership-guide-container {
+    border-radius: var(--spacing-150);
+    margin-inline: 135px;
+    text-align: center;
+    padding-block: var(--spacing-1000);
+    gap: var(--spacing-800);
+  }
+
+  .membership-guide-container h1 {
+    font-size: var(--text-preset-2-size);
+  }
+
+  .membership-guide {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-600);
+    text-align: start;
+  }
+
+  .membership-options-container {
+    padding-inline: 235px;
+    text-align: center;
+  }
+
+  .membership-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+  }
+
+  /* .membership-options .pro {
+    background: linear-gradient(
+      180deg,
+      var(--color-salmon-50) 0%,
+      #e6eff3 100%
+    );
+  } */
 }
-  

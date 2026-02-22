@@ -1,7 +1,7 @@
 @import url(./Style/Token/design-system-root.css);
 @import url(./Style/mobile.css);
-@import url(./Style/desktop.css);
 @import url(./Style/tablet.css);
+@import url(./Style/desktop.css);
 
 *,
 *::before,
@@ -169,6 +169,119 @@ header span {
   font-weight: var(--text-preset-6-weight);
   line-height: var(--text-preset-6-line-height);
   letter-spacing: var(--text-preset-6-letter-spacing);
+}
+
+.membership-options {
+  gap: var(--spacing-300);
+}
+
+.membership-options-container h1 {
+  font-family: var(--font-primary);
+  font-family: var(--text-preset-2-font);
+  font-weight: var(--text-preset-2-weight);
+  line-height: var(--text-preset-2-line-height);
+  letter-spacing: var(--text-preset-2-letter-spacing);
+  color: var(--color-neutral-900);
+}
+
+.starter,
+.pro,
+.enterprise {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: var(--spacing-300);
+  border-radius: var(--radius-8);
+  border: 1px solid var(--color-neutral-200);
+  background: var(--color-neutral-0,);
+  padding: var(--spacing-300);
+}
+
+.starter,
+.pro,
+.enterprise h3 {
+  font-family: var(--font-primary);
+  font-family: var(--text-preset-3-font);
+  font-weight: var(--text-preset-3-weight);
+  line-height: var(--text-preset-3-line-height);
+  letter-spacing: var(--text-preset-3-letter-spacing);
+  font-size: var(--text-preset-3-size);
+  color: var(--color-neutral-900);
+}
+
+.membership-options h2 {
+  font-family: var(--font-primary);
+  font-family: var(--text-preset-4-font);
+  font-weight: var(--text-preset-4-weight);
+  line-height: var(--text-preset-4-line-height);
+  letter-spacing: var(--text-preset-4-letter-spacing);
+  font-size: var(--text-preset-4-size);
+  color: var(--color-neutral-900);
+}
+
+.price span {
+  font-family: var(--font-secondary);
+  font-family: var(--text-preset-5-font);
+  font-weight: var(--text-preset-5-weight);
+  line-height: var(--text-preset-5-line-height);
+  letter-spacing: var(--text-preset-5-letter-spacing);
+  font-size: var(--text-preset-5-size);
+  color: var(--color-neutral-700);
+}
+
+.enterprise-span {
+  font-family: var(--font-primary);
+  font-family: var(--text-preset-3-font);
+  font-weight: var(--text-preset-3-weight);
+  line-height: var(--text-preset-3-line-height);
+  letter-spacing: var(--text-preset-3-letter-spacing);
+  font-size: var(--text-preset-3-size);
+  color: var(--color-neutral-900);
+}
+
+hr {
+  height: 1px;
+  align-self: stretch;
+  background: var(--color-neutral-200);
+}
+
+.membership-options-container button {
+  font-family: var(--font-primary);
+  font-family: var(--text-preset-6-font);
+  font-weight: var(--text-preset-6-weight);
+  line-height: var(--text-preset-6-line-height);
+  letter-spacing: var(--text-preset-6-letter-spacing);
+  width: 100%;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-075);
+}
+
+.first-option,
+.second-option {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-150);
+}
+
+.first-option,
+.second-option span {
+  font-family: var(--font-secondary);
+  font-family: var(--text-preset-5-font);
+  font-weight: var(--text-preset-5-weight);
+  line-height: var(--text-preset-5-line-height);
+  letter-spacing: var(--text-preset-5-letter-spacing);
+  font-size: var(--text-preset-5-size);
+  color: var(--color-neutral-700);
+}
+
+.option img {
+  border-radius: 3.429px;
+  border: 1.714px solid var(--color-neutral-700);
+  padding: var(--spacing-050);
 }
 
 /* Button Layout  */

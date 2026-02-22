@@ -1,5 +1,8 @@
 .container {
   padding-inline: var(--spacing-200);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-800);
 }
 main {
   padding-top: 6.75rem;
@@ -24,8 +27,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-500);
-  margin-top: var(--spacing-800);
-  margin-bottom: var(--spacing-800);
 }
 
 .togather {
@@ -44,7 +45,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-500);
-  margin-bottom: var(--spacing-800);
 }
 
 .club-info {
@@ -81,5 +81,19 @@ main {
 }
 
 .membership-guide p {
+  font-size: var(--text-preset-6-mobile-size);
+}
+
+.membership-options-container h1 {
+  font-size: var(--text-preset-2-mobile-size);
+  padding-bottom: var(--spacing-300);
+}
+
+.membership-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.membership-options-container button  {
   font-size: var(--text-preset-6-mobile-size);
 }
