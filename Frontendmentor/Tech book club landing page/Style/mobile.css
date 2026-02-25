@@ -94,6 +94,32 @@ main {
   flex-direction: column;
 }
 
-.membership-options-container button  {
+.membership-options-container button {
   font-size: var(--text-preset-6-mobile-size);
+}
+
+blockquote p {
+  font-size: var(--text-preset-3-mobile-size);
+}
+
+figcaption {
+  margin-bottom: var(--spacing-800);
+}
+
+footer h1 {
+  font-size: var(--text-preset-2-mobile-size);
+  padding-top: var(--spacing-600);
+}
+
+footer hr {
+  margin-inline: var(--spacing-200);
+}
+
+footer span {
+padding-bottom: var(--spacing-200);
+padding-top: var(--spacing-300);
+}
+
+.white-img-container {
+  margin-bottom: var(--spacing-300);
 }

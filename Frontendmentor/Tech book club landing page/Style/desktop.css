@@ -80,4 +80,23 @@
       #e6eff3 100%
     );
   } */
+
+  blockquote {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  blockquote p {
+    font-size: var(--text-preset-3-size);
+  }
+
+  footer h1 {
+    font-size: var(--text-preset-2-size);
+    padding-top: var(--spacing-1000);
+  }
+
+  footer hr {
+    margin-inline: 0;
+  }
 }
