@@ -11,6 +11,10 @@
     gap: var(--spacing-1000);
   }
 
+  .guide-arrow-img {
+    display: none;
+  }
+
   blockquote p {
     font-size: var(--text-preset-3-size);
   }
@@ -21,5 +25,18 @@
 
   footer hr {
     margin-inline: 0;
+  }
+
+  .white-img-container {
+    margin: 0;
+  }
+
+  .footer-social-media-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline: var(--spacing-400);
   }
 }

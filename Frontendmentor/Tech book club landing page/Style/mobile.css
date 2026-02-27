@@ -68,6 +68,10 @@ main {
   font-size: var(--text-preset-2-mobile-size);
 }
 
+.guide-arrow-img {
+  display: none;
+}
+
 .steps {
   display: flex;
   align-items: start;
@@ -116,10 +120,21 @@ footer hr {
 }
 
 footer span {
-padding-bottom: var(--spacing-200);
-padding-top: var(--spacing-300);
+  padding-bottom: var(--spacing-200);
+  padding-top: var(--spacing-300);
 }
 
 .white-img-container {
   margin-bottom: var(--spacing-300);
+}
+
+.footer-social-media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pro {
+
 }

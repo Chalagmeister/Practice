@@ -10,12 +10,19 @@
   margin: 0;
 }
 
+body {
+  background-color: var(--color-neutral-0);
+}
+
 .container {
-  background-color: var(--color-neutral-100);
+  /* background-color: var(--color-neutral-100); */
 }
 
 main {
   background-image: url(./Assets/pattern.svg);
+  stroke-width: 1.2px;
+  stroke: rgba(10, 13, 22, 0.01);
+  background-color: var(--color-neutral-100);
 }
 
 .joining-section h1 {
@@ -134,6 +141,10 @@ header span {
   letter-spacing: var(--text-preset-2-letter-spacing);
   font-size: var(--font-size-34);
 }
+
+/* .club-info h1 span {
+  
+} */
 
 .club-info p {
   font-family: var(--font-secondary);

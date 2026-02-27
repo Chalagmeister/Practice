@@ -55,10 +55,14 @@
     font-size: var(--text-preset-2-size);
   }
 
+.guide-arrow-img {
+    display: initial;
+  }
+
   .membership-guide {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--spacing-600);
+    grid-template-columns: repeat(7, 1fr);
+    align-content: space-evenly;
     text-align: start;
   }
 
