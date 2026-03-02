@@ -1,11 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat app CSS illustration</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./Style.css" />
+  </head>
+  <body>
+    <div class="mobile-container">
+      <div class="mobile">
+        <header>
+          <div class="personal-information">
+            <img src="./Assets/Path 4.svg" alt="Click to go back" />
+            <img src="./Assets/Oval.svg" alt="Profile picture" />
+            <div class="name-and-aviability">
+              <h5>Samuel Green</h5>
+              <h6>Available to Walk</h6>
+            </div>
+          </div>
+          <img src="./Assets/options.svg" alt="options" />
+        </header>
+        <div class="messages texter">
+          <p class="first-message">
+            That sounds great. I’d be <br />
+            happy with that.
+          </p>
+          <p>
+            Could you send over some <br />
+            pictures of your dog, please?
+          </p>
+        </div>
+        <div class="messages responder">
+          <div class="puppy-img-container">
+            <img src="./Assets/dog1.svg" alt="dog photo" />
+            <img src="./Assets/dog2.svg" alt="dog photo" />
+            <img src="./Assets/dog3.svg" alt="dog photo" />
+          </div>
+          <p>
+            Here are a few pictures. She’s <br />
+            a happy girl!
+          </p>
+          <p>Can you make it?</p>
+        </div>
+        <div class="messages texter">
+          <p>
+            She looks so happy! The time <br />
+            we discussed works. How <br />
+            long shall I take her out for?
+          </p>
+          <div class="offer">
+            <div class="time-frame">
+              <img src="./Assets/checkmark.svg" alt="checkbox" />
+              <span>30 minute walk</span>
+            </div>
+            <h1>$29</h1>
+          </div>
+          <div class="offer">
+            <div class="time-frame">
+              <img src="./Assets/checkmark.svg" alt="checkbox" />
+              <span>1 hour walk</span>
+            </div>
+            <h1>$49</h1>
+          </div>
+        </div>
+        <div class="resonse">
+          <input type="text" placeholder="Type a message…" />
+          <button>
+            <img src="./Assets/sent.svg" alt="Send message" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="main-information">
+      <h1 class="main-header">Simple booking</h1>
+      <p class="main-paragraph">
+        Stay in touch with our dog walkers through the chat interface. This
+        makes it easy to discuss arrangements and make bookings. Once the walk
+        has been completed you can rate your walker and book again all through
+        the chat.
+      </p>
+    </div>
+  </body>
 </html>

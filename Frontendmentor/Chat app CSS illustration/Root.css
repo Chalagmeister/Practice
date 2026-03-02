@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  /* Colors */
+
+  --gray-500: #a39da9;
+  --gray-300: #c5c9cc;
+  --gray-100: #f5f3f7;
+  --gray-50: #fafafa;
+
+  --purple-950: #3e2753;
+  --purple-600: #9341c8;
+  --purple-300: #d99eff;
+  --purple-50: #eee5f4;
+
+  --pink-400: #e472ff;
+  --gradient-1: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+
+  /* Topography */
+
+  --rubik: "Rubik", sans-serif;
+
+  --font-size-1: 2.5rem;
+  --line-heigt-1: 3rem;
+
+  --font-size-2: 1rem;
+  --line-heigt-2: 1.75rem;
+
+  --font-size-3: 0.75rem;
+  --line-heigt-3: 0.875rem;
+
+  --font-size-4: 0.6875rem;
+  --line-heigt-4: 0.825rem;
+
+  --font-size-5: 0.5rem;
+  --line-heigt-5: 0.6rem;
+
+  --letter-spacing: 0rem;
+
+  /* spacing */
+
+  --spacing-0: 0rem;
+  --spacing-100: 0.5rem;
+  --spacing-200: 1rem;
+  --spacing-300: 1.5rem;
+  --spacing-400: 2rem;
+  --spacing-800: 4rem;
+  --spacing-1500: 7.5rem;
+}

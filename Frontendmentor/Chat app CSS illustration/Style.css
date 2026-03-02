@@ -1,0 +1,206 @@
+@import url(./Root.css);
+@import url(mobile.css);
+@import url(./tablet.css);
+@import url(./desktop.css);
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--rubik);
+}
+
+body {
+  background-color: var(--gray-50);
+  min-height: 100vh;
+  position: relative;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.mobile-container {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 30px 60px -10px rgba(62, 39, 83, 0.25);
+  position: relative;
+  width: 247px;
+}
+
+.mobile {
+  background-color: var(--gray-100);
+  margin: 11px 9.5px;
+  border-radius: 20px;
+  border: 1px solid rgba(62, 39, 83, 0.05);
+}
+
+header {
+  display: flex;
+  border-radius: 20px 20px 6px 6px;
+  background: var(--gradient-1,);
+  box-shadow: 0 0 13px 0 rgba(62, 39, 83, 0.25);
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.625rem;
+  padding-inline: var(--spacing-200);
+  padding-bottom: var(--spacing-200);
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 129px;
+    height: 29px;
+    background-color: white;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 14px 14px;
+    background: white;
+  }
+}
+
+.personal-information {
+  display: flex;
+  gap: var(--spacing-100);
+}
+
+.personal-information h5 {
+  font-size: var(--font-size-4);
+  line-height: var(--line-heigt-4);
+  color: white;
+}
+
+.personal-information h6 {
+  color: var(--purple-300);
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-100);
+  margin-inline: 7.5px;
+}
+
+.resonse {
+  margin-inline: 7.5px;
+}
+
+.texter p {
+  background-color: var(--purple-50);
+  border-radius: 10px 10px 10px 4px;
+  padding: var(--spacing-100);
+  font-size: var(--font-size-5);
+  line-height: var(--line-heigt-5);
+  letter-spacing: var(--letter-spacing);
+  color: var(--purple-600);
+  width: max-content;
+}
+
+.first-message {
+  margin-top: 0.6875rem;
+}
+
+.responder {
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.responder p {
+  color: var(--gray-500);
+  background-color: white;
+  border-radius: 10px 10px 10px 4px;
+  padding: var(--spacing-100);
+  font-size: var(--font-size-5);
+  line-height: var(--line-heigt-5);
+  letter-spacing: var(--letter-spacing);
+  width: max-content;
+
+  box-shadow: 0 10px 5px -5px rgba(62, 39, 83, 0.05);
+}
+
+.puppy-img-container {
+  display: flex;
+  gap: var(--spacing-100);
+  margin-top: 1rem;
+}
+
+.puppy-img-container img {
+  width: 40px;
+  height: 40px;
+}
+
+.offer {
+  border-radius: 10px 10px 10px 4px;
+  background: var(--gradient-1);
+  box-shadow: 0 10px 5px -5px rgba(62, 39, 83, 0.05);
+  width: max-content;
+  padding: var(--spacing-100);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time-frame {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-100);
+}
+.time-frame span {
+  padding: var(--spacing-5);
+  font-size: var(--font-size-5);
+  line-height: var(--line-heigt-5);
+  letter-spacing: var(--letter-spacing);
+  color: white;
+}
+
+.offer h1 {
+  padding: var(--spacing-3);
+  font-size: var(--font-size-3);
+  line-height: var(--line-heigt-3);
+  letter-spacing: var(--letter-spacing);
+  color: white;
+  padding-left: var(--spacing-400);
+}
+
+.resonse {
+  border-radius: 16.954px;
+  background: white;
+  padding-inline: var(--spacing-100);
+  padding-block: 5px;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input {
+  border: none;
+}
+
+button {
+  background: transparent;
+  border: none;
+  background-color: var(--purple-950);
+  padding-inline: 9.1px;
+  padding-block: 7.27px;
+  border-radius: 50%;
+}
+
+.main-header {
+  font-size: var(--font-size-1);
+  line-height: var(--line-heigt-1);
+  letter-spacing: var(--letter-spacing);
+  color: var(--purple-950);
+  margin-top: var(--spacing-800);
+  margin-bottom: var(--spacing-300);
+}
+
+.main-paragraph {
+  color: var(--gray-500);
+  font-size: var(--font-size-2);
+  font-weight: 400;
+  line-height: var(--line-heigt-2);
+}
